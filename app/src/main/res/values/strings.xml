@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">contador</string>
+    <string name="textMinus">-</string>
+    <string name="textPlus">+</string>
+</resources>
