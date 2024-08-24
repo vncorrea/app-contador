@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     private var count = 0
@@ -23,12 +24,15 @@ class MainActivity : AppCompatActivity() {
         val buttonPlus = findViewById<Button>(R.id.buttonPlus)
 
         textView.text = count.toString()
-        buttonMinus.isEnabled = false
 
         buttonMinus.setOnClickListener {
+            if (count <= 0) {
+                Toast.makeText(this, "Erro: contador não pode ser 0", Toast.LENGTH_SHORT).show()
+                buttonMinus.isEnabled = false
+                return@setOnClickListener
+            }
             count--
             textView.text = count.toString()
-            buttonMinus.isEnabled = count != 0
         }
 
         buttonPlus.setOnClickListener {
