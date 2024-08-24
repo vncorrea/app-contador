@@ -7,20 +7,20 @@ O aplicativo permite ao usuário incrementar ou decrementar um contador com apen
 
 
 <strong>Funcionalidades</strong><br>
-	•	Incrementar o contador.
+	•	Incrementar o contador.<br>
 	•	Decrementar o contador.
 
 
 <strong>Tecnologias Utilizadas</strong><br>
-	•	Kotlin: Linguagem de programação principal do projeto.
+	•	Kotlin: Linguagem de programação principal do projeto.<br>
 	•	Android Studio: Ambiente de desenvolvimento integrado (IDE) utilizado para desenvolvimento do aplicativo.
 
 
 <strong>Aprendizado</strong><br>
 Durante o desenvolvimento deste aplicativo, foram abordados conceitos fundamentais de desenvolvimento mobile com Kotlin, como:
-	•	Criação de layouts XML.
-	•	Manipulação de eventos de clique.
-	•	Ciclo de vida de uma Activity no Android.
+	•	Criação de layouts XML.<br>
+	•	Manipulação de eventos de clique.<br>
+	•	Ciclo de vida de uma Activity no Android.<br>
 	•	Atualização dinâmica de elementos de UI.
 
  
@@ -29,7 +29,7 @@ Este projeto foi desenvolvido para a disciplina de Mobile I, parte do curso de E
 
 
 <strong>Como Executar</strong><br>
-	1.	Clone este repositório em sua máquina local.
-	2.	Abra o projeto no Android Studio.
-	3.	Conecte um dispositivo Android ou utilize um emulador.
+	1.	Clone este repositório em sua máquina local.<br>
+	2.	Abra o projeto no Android Studio.<br>
+	3.	Conecte um dispositivo Android ou utilize um emulador.<br>
 	4.	Execute o aplicativo.
