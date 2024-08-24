@@ -17,7 +17,7 @@ O aplicativo permite ao usuário incrementar ou decrementar um contador com apen
 
 
 <strong>Aprendizado</strong><br>
-Durante o desenvolvimento deste aplicativo, foram abordados conceitos fundamentais de desenvolvimento mobile com Kotlin, como:
+Durante o desenvolvimento deste aplicativo, foram abordados conceitos fundamentais de desenvolvimento mobile com Kotlin, como:<br>
 	•	Criação de layouts XML.<br>
 	•	Manipulação de eventos de clique.<br>
 	•	Ciclo de vida de uma Activity no Android.<br>
