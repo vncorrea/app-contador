@@ -1,4 +1,4 @@
-Contador em Kotlin
+<strong>Contador em Kotlin</strong>
 
 Este é um aplicativo simples de contador desenvolvido em Kotlin como parte da disciplina de Mobile I na Universidade de Ribeirão Preto.
 
