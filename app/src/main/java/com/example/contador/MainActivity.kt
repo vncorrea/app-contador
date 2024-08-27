@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         buttonMinus.setOnClickListener {
             if (count <= 0) {
-                Toast.makeText(this, "Erro: contador não pode ser 0", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Contador não pode ser 0", Toast.LENGTH_SHORT).show()
                 buttonMinus.isEnabled = false
                 return@setOnClickListener
             }
